@@ -16,14 +16,17 @@ li {
 /* header */
 header {
     width: 1200px;
+    /* height: 100px; */
     background-color: #111;
 }
 .logo {
+    float: left;
     width: 200px;
     height: 100px;
     background-color: #222;
 }
 .menu {
+    float: right;
     width: 1000px;
     height: 100px;
     background-color: #333;

@@ -15,19 +15,67 @@ li {
 
 /* header */
 header {
+    display: flex;
     width: 1200px;
-    /* height: 100px; */
     background-color: #111;
 }
 .logo {
-    float: left;
+    
     width: 200px;
     height: 100px;
     background-color: #222;
 }
 .menu {
-    float: right;
+    
     width: 1000px;
     height: 100px;
     background-color: #333;
+}
+
+/* image slide */
+#slide{
+    width: 1200px;
+    height: 300px;
+    background-color: #444;
+}
+
+/* contents */
+#contents{
+    display: flex;
+    width: 1200px;
+    height: 200px;
+}
+.notice{
+    width: 400px;
+    height: 200px;
+    background-color: #555;
+}
+.banner{
+    width: 400px;
+    height: 200px;
+    background-color: #666;
+}.shortcut{
+    width: 400px;
+    height: 200px;
+    background-color: #555;
+}
+/* footer */
+#footer{
+    display: flex;
+    width: 1200px;
+    height: 100px;
+}
+.bt-logo{
+    width: 200px;
+    height: 100px;
+    background-color: #777;
+}
+.copyright{
+    width: 800px;
+    height: 100px;
+    background-color: #888;
+}.sns{
+    width: 200px;
+    height: 100px;
+    background-color: #777;
 }
